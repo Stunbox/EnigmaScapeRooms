@@ -48,4 +48,5 @@ public class PlayerController : MonoBehaviour
             viewPoint.Rotate(new Vector3(mouseX * speedRotation * Time.deltaTime * 5f, 0, 0));
         }
     }
+    
 }
